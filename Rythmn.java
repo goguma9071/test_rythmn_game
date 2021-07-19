@@ -23,7 +23,7 @@ public class Rythmn extends JFrame {
         screenImage = createImage(javaprogram.SCREEN_WIDTH, javaprogram.SCREEN_HEIGHT);
         screenGraphics = screenImage.getGraphics();
         screenDraw(screenGraphics);
-        g.drawImage(screenImage, 0, 0, nu);
+        g.drawImage(screenImage, 0, 0, null);
     }
     public void screenDraw(Graphics g) {
         g.drawImage(menuBGBlue, 0, 0, null);
